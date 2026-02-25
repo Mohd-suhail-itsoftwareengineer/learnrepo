@@ -1,0 +1,16 @@
+Application Name: DevOps Practice App
+Owner: Suhail
+Environment: Development
+
+Modules:
+1. User Management
+2. Order Processing
+3. Payment Gateway
+
+Technologies Used:
+- Java
+- Spring Boot
+- MySQL
+- Docker
+- AWS EC2
+
