@@ -1,0 +1,1000 @@
+ 1120  git status  new
+ 1121  git config --global --add safe.directory /home/suhail/git_repo/
+ 1122  sudoo git config --global --add safe.directory /home/suhail/git_repo/
+ 1123  sudo git config --global --add safe.directory /home/suhail/git_repo/
+ 1124  git new
+ 1125  cat >test 
+ 1126  cat new 
+ 1127  cat test 
+ 1128  git status test 
+ 1129  git status new 
+ 1130  ls -ld /home/suhail/git_repo
+ 1131  sudo chown -R suhail:suhail /home/suhail/git_repo
+ 1132  ls -ld /home/suhail/git_repo
+ 1133  ls -ld
+ 1134  git status 
+ 1135  git status new 
+ 1136  cat > new 
+ 1137  git status 
+ 1138  git status *
+ 1139  vi test 
+ 1140  git sta
+ 1141  git status 
+ 1142  git --help
+ 1143  git status test 
+ 1144  git init 
+ 1145  git init new
+ 1146  git init test
+ 1147  sudo git init test
+ 1148  git status
+ 1149  ls
+ 1150  cat test 
+ 1151  ls 
+ 1152  rm -rf new 
+ 1153  ls
+ 1154  git status 
+ 1155  git add test 
+ 1156  git status 
+ 1157  git init test
+ 1158  sudo git init test
+ 1159  git status
+ 1160  git commit -m "code updated1" test 
+ 1161  git status test 
+ 1162  git status 
+ 1163  ls
+ 1164  git diff test
+ 1165  git diff test * 
+ 1166  git log  test * 
+ 1167  git df33890240bb30fc85846e167088a84cc099bb11:new
+ 1168  git df33890240bb30fc85846e167088a84cc099bb11: new
+ 1169  git log df33890240bb30fc85846e167088a84cc099bb11: new
+ 1170  git log df33890240bb30fc85846e167088a84cc099bb11 : new
+ 1171  git show df33890240bb30fc85846e167088a84cc099bb11: test
+ 1172  vi test 
+ 1173  git status
+ 1174  git diff test
+ 1175  git status
+ 1176  git commit -m "second upgrded" test 
+ 1177  git log test
+ 1178  git shwo 97841909422214868a60ef500fa0ab48f39e75e4: test
+ 1179  git shwo 97841909422214868a60ef500fa0ab48f39e75e4 : test
+ 1180  git shwo 97841909422214868a60ef500fa0ab48f39e75e4:test
+ 1181  git show 97841909422214868a60ef500fa0ab48f39e75e4:test
+ 1182  git log 
+ 1183  git checkout 613dcc72949a181947076c3070247cd8b83bb2bf -- test
+ 1184  git checkout 613dcc72949a181947076c3070247cd8b83bb2bf -- *
+ 1185  git checkout 613dcc72949a181947076c3070247cd8b83bb2bf -- app.txt config.json test
+ 1186  git checkout 613dcc72949a181947076c3070247cd8b83bb2bf --  test
+ 1187  git checkout 613dcc72949a181947076c3070247cd8b83bb2bf -- test
+ 1188  git log test
+ 1189  git checkoutdf33890240bb30fc85846e167088a84cc099bb11 -- new
+ 1190  git checkoutdf33890240bb30fc85846e167088a84cc099bb11 -- test
+ 1191  git checkout df33890240bb30fc85846e167088a84cc099bb11 -- test
+ 1192  cat test 
+ 1193  git checkout master -- test
+ 1194  cat test 
+ 1195  git checkout df33890240bb30fc85846e167088a84cc099bb11 -- test
+ 1196  cat test 
+ 1197  git checkout df33890240bb30fc85846e167088a84cc099bb11 -- test
+ 1198  cat test 
+ 1199  git checkout master -- test
+ 1200  cat test 
+ 1201  ls
+ 1202  cd git_repo/
+ 1203  ls
+ 1204  clear
+ 1205  git diff df33890240bb30fc85846e167088a84cc099bb11: demo
+ 1206  vi old
+ 1207  git add old 
+ 1208  git commit -m "wrong commit v5" old
+ 1209  cat old 
+ 1210  la
+ 1211  ls
+ 1212  clear
+ 1213  ls
+ 1214  cd git_repo/
+ 1215  ls
+ 1216  clear
+ 1217  git status
+ 1218  cat test 
+ 1219  vi test 
+ 1220  git status
+ 1221  git add test 
+ 1222  git status 
+ 1223  git commit -m "second code changed" 
+ 1224  git status
+ 1225  man init
+ 1226  git init
+ 1227  sl
+ 1228  ls
+ 1229  clear
+ 1230  ls -ltr
+ 1231  git status
+ 1232  mv demo test 
+ 1233  mv test demo 
+ 1234  ls
+ 1235  cat demo 
+ 1236  clear
+ 1237  vi demo.txt
+ 1238  ls
+ 1239  git status 
+ 1240  git add demo
+ 1241  git init
+ 1242  git commit -m "new upgraded" demo.txt 
+ 1243  git commit -m "new upgraded" demo *
+ 1244  git commit -m "new upgraded" *
+ 1245  git commit -m "new upgraded" demo 
+ 1246  git commit -m "new upgraded" demo.txt 
+ 1247  git status 
+ 1248  git add demo.txt 
+ 1249  git commit -m "third upgraded" demo.txt 
+ 1250  git diff demo
+ 1251  git log demo
+ 1252  git log demo.txt
+ 1253  lx
+ 1254  ls
+ 1255  cat demo
+ 1256  vi demo
+ 1257  git status demo
+ 1258  git add demo 
+ 1259  git commit -m "V! chaged"
+ 1260  git status 
+ 1261  git log *
+ 1262  git log 
+ 1263  git diff demo
+ 1264  git diff df33890240bb30fc85846e167088a84cc099bb11: demo
+ 1265  git show df33890240bb30fc85846e167088a84cc099bb11: demo
+ 1266  git show df33890240bb30fc85846e167088a84cc099bb11:demo
+ 1267  git show df33890240bb30fc85846e167088a84cc099bb11: demo
+ 1268  git log 
+ 1269  git show 4e2f4f51a6cad91cac86dce56240fd7496a92503: demo
+ 1270  cat demo.txt 
+ 1271  ls
+ 1272  mv new demo.txt 
+ 1273  mv ar demo.txt 
+ 1274  touch new demo.txt 
+ 1275  ls
+ 1276  cat new 
+ 1277  mv new demo.txt 
+ 1278  ls
+ 1279  cat demo.txt new
+ 1280  ls
+ 1281  mv new demo.txt 
+ 1282  touch new
+ 1283  mv demo.txt 
+ 1284  mv demo.txt new 
+ 1285  s
+ 1286  ls
+ 1287  cat new 
+ 1288  mv new old
+ 1289  ls
+ 1290  cat old 
+ 1291  vi old
+ 1292  ls
+ 1293  cat old
+ 1294  git status
+ 1295  git add old 
+ 1296  ls
+ 1297  git status
+ 1298  git commit -m "V2" old 
+ 1299  git status old 
+ 1300  git log old
+ 1301  vi old 
+ 1302  git status
+ 1303  git add old
+ 1304  git commit -m "V3 second" old 
+ 1305  git status old 
+ 1306  git status
+ 1307  git log old
+ 1308  git diff [200~c8188c773ffbdf222d7c7ddba2ebe1b39b5420c5~: oldd
+ 1309  git diff [200~c8188c773ffbdf222d7c7ddba2ebe1b39b5420c5~: old
+ 1310  git diff 200~c8188c773ffbdf222d7c7ddba2ebe1b39b5420c5~: old
+ 1311  git diff c8188c773ffbdf222d7c7ddba2ebe1b39b5420c5: old
+ 1312  ls
+ 1313  git log demo
+ 1314  git diff 4e2f4f51a6cad91cac86dce56240fd7496a92503:demo
+ 1315  git diff 4e2f4f51a6cad91cac86dce56240fd7496a92503: demo
+ 1316  ls
+ 1317  cat demo 
+ 1318  vi demo 
+ 1319  git status demo
+ 1320  git add demo
+ 1321  git commit -m "production upgaded" demo
+ 1322  git log demo
+ 1323  git diff 69559a0a27e5761a4b65355996a6681750eaf745: demo
+ 1324  git diff df33890240bb30fc85846e167088a84cc099bb11: demo
+ 1325  git diff 69559a0a27e5761a4b65355996a6681750eaf745: demo
+ 1326  git show 69559a0a27e5761a4b65355996a6681750eaf745: demo
+ 1327  git diff 69559a0a27e5761a4b65355996a6681750eaf745: demo
+ 1328  git diff 69559a0a27e5761a4b65355996a6681750eaf745:demo
+ 1329  git diff 69559a0a27e5761a4b65355996a6681750eaf745: demo
+ 1330  git diff df33890240bb30fc85846e167088a84cc099bb11: demo
+ 1331  git show 69559a0a27e5761a4b65355996a6681750eaf745: demo
+ 1332  git log demo
+ 1333  git diff 4e2f4f51a6cad91cac86dce56240fd7496a92503: demo
+ 1334  git show 4e2f4f51a6cad91cac86dce56240fd7496a92503: demo
+ 1335  ls
+ 1336  git log test
+ 1337  ls
+ 1338  git old
+ 1339  git log old
+ 1340  git diff  af2c4a9377d4d7a035e3b77995e9f25516a02138: old
+ 1341  git diff af2c4a9377d4d7a035e3b77995e9f25516a02138: old
+ 1342  git show  af2c4a9377d4d7a035e3b77995e9f25516a02138: old
+ 1343  git checkout  af2c4a9377d4d7a035e3b77995e9f25516a02138: old
+ 1344  cat old
+ 1345  git checkout  af2c4a9377d4d7a035e3b77995e9f25516a02138: old
+ 1346  cat old
+ 1347  git checkout master -- *
+ 1348  git checkout master -- * 
+ 1349  cat old
+ 1350  git -- config
+ 1351  git --config
+ 1352  git config --list
+ 1353  git log old
+ 1354  git restore old
+ 1355  cat old
+ 1356  git restore .
+ 1357  cat old 
+ 1358  vi old
+ 1359  git status old
+ 1360  git add old
+ 1361  git commit -m "process upgrded V4" 
+ 1362  git status old
+ 1363  git log old
+ 1364  git diff c1c9a8239e8f96649ee070516abae3327c2683c8: old
+ 1365  git diff c8188c773ffbdf222d7c7ddba2ebe1b39b5420c5: old
+ 1366  git restore . old
+ 1367  cat old 
+ 1368  git restore old
+ 1369  caat old 
+ 1370  cat old 
+ 1371  git diff --cached old
+ 1372  git diff --cached 
+ 1373  git diff --cached demo
+ 1374  vi old
+ 1375  git diff --cached old
+ 1376  git restore --staged old
+ 1377  cat old 
+ 1378  git diff --cached old
+ 1379  cat old 
+ 1380  git restore --staged old
+ 1381  git restore . old
+ 1382  git restore . 
+ 1383  cat old 
+ 1384  git restore --worktree old
+ 1385  cat old 
+ 1386  ls
+ 1387  cat new 
+ 1388  ls
+ 1389  cat test 
+ 1390  cat old
+ 1391  git add old
+ 1392  git satatus
+ 1393  git sattus
+ 1394  git staus
+ 1395  git status
+ 1396  git status old
+ 1397  git restore --wroktree old
+ 1398  git restore --worktree old
+ 1399  cat old 
+ 1400  cat old
+ 1401  git status old
+ 1402  git reset --hard HEAD^ old 
+ 1403  git reset --hard HEAD^ 
+ 1404  git log old
+ 1405  git log --stat 
+ 1406  git log --pretty=online
+ 1407  git log -- pretty=online
+ 1408  git log -- pretty=online old
+ 1409  git log -- pretty=online 
+ 1410  git log --pretty=oneline
+ 1411  git log --pretty=oneline > old
+ 1412  cat old
+ 1413  vi old 
+ 1414  sh old 
+ 1415  vi old 
+ 1416  cat old 
+ 1417  git log --pretty=format: "%h - %an, %ar:%s"  
+ 1418  git log --pretty=format:"%h - %an, %ar:%s"  
+ 1419  git show b38e1e4
+ 1420  git log -S "code has been upgraded" 
+ 1421  git log --grep="V1"
+ 1422  git log --grep="v1"
+ 1423  git log --grep="v2"
+ 1424  git log --grep="v4"
+ 1425  git log --grep="v5"
+ 1426  git log
+ 1427  git log --grep="V2"
+ 1428  git log --grep="V3"
+ 1429  git log --since="2026-02-27" 
+ 1430  git log --since="2026-02-27" old
+ 1431  git log --author="suhail" 
+ 1432  ls
+ 1433  cd git_repo/
+ 1434  ls
+ 1435  clear
+ 1436  ls -ltr
+ 1437  ls
+ 1438  clear
+ 1439  ls -lr
+ 1440  ls
+ 1441  ls -ld
+ 1442  clear
+ 1443  ls -ltr
+ 1444  ls
+ 1445  cd git_repo/
+ 1446  ls
+ 1447  clear
+ 1448  ls -ltr
+ 1449  ls -ltr 
+ 1450  ls -ltr > br
+ 1451  ls
+ 1452  cat br 
+ 1453  git
+ 1454  ls
+ 1455  clear
+ 1456  ls
+ 1457  cat new 
+ 1458  ls
+ 1459  cat old 
+ 1460  cat demo
+ 1461  ls
+ 1462  vi old 
+ 1463  git status 
+ 1464  git add br 
+ 1465  git status 
+ 1466  git commit -m "code has been upgraded" br
+ 1467  git status 
+ 1468  git log br
+ 1469  git diff 381c644406c2e2f21485537830a7508374068f73: br
+ 1470  ls
+ 1471  cat /etc/passwd
+ 1472  useradd demo 
+ 1473  sudo useradd demo 
+ 1474  cat /etc/passwd
+ 1475  pwd
+ 1476  su - demo
+ 1477  sudo su - demo
+ 1478  sudo usermod -s /bin/bash demo
+ 1479  sudo su - demo
+ 1480  ls -ld
+ 1481  ls -ld demo/
+ 1482  ls -ld demo
+ 1483  sudo chown -R demo:demo /home/demo
+ 1484  sudo su - demo
+ 1485  cd jenkins_home/
+ 1486  ls
+ 1487  ls -ltr | grep pid | ps aef
+ 1488  ls
+ 1489  ls -ltr
+ 1490  ls
+ 1491  clear
+ 1492  ls -ltr
+ 1493  cd
+ 1494  ls
+ 1495  cd git_repo/
+ 1496  ls
+ 1497  clear
+ 1498  ls -ltr
+ 1499  ls
+ 1500  clear
+ 1501  ls -ltr
+ 1502  git remote Mohd-suhail-itsoftwareengineer
+ 1503  git remote
+ 1504  git remote -v
+ 1505  ls
+ 1506  git log
+ 1507  git branch shera
+ 1508  git checkout shera 
+ 1509  git merge shera 
+ 1510  git log 
+ 1511  ls
+ 1512  vi old 
+ 1513  git status 
+ 1514  git add old 
+ 1515  git status 
+ 1516  git log
+ 1517  git commit -m "V6" old 
+ 1518  git status old 
+ 1519  git status
+ 1520  git push origin shera 
+ 1521  git pull 
+ 1522  git pull old
+ 1523  git log
+ 1524  git pull old
+ 1525  git checkout main 
+ 1526  git pull 
+ 1527  git checkout shq
+ 1528  git checkout shera 
+ 1529  git log 
+ 1530  git diff 3c4de7edc78bf692430cd113cecb853d801bb037: old
+ 1531  git show 3c4de7edc78bf692430cd113cecb853d801bb037: old
+ 1532  git show 3c4de7edc78bf692430cd113cecb853d801bb037:old
+ 1533  git log
+ 1534  git show 3c4de7edc78bf692430cd113cecb853d801bb037: old
+ 1535  git show 3c4de7edc78bf692430cd113cecb853d801bb037:old
+ 1536  git diff 3c4de7edc78bf692430cd113cecb853d801bb037:old
+ 1537  git diff 3c4de7edc78bf692430cd113cecb853d801bb037: old
+ 1538  git diff 3c4de7edc78bf692430cd113cecb853d801bb037:old
+ 1539  git diff 3c4de7edc78bf692430cd113cecb853d801bb037: old
+ 1540  git log old
+ 1541  git show old
+ 1542  ls
+ 1543  git log shera 
+ 1544  ls
+ 1545  rm -rm *
+ 1546  sudo rm -rm *
+ 1547  sudo rm -rf *
+ 1548  ls
+ 1549  git log 
+ 1550  git show 8
+ 1551  git show *
+ 1552  ls
+ 1553  git log 
+ 1554  clear
+ 1555  mkdir lap
+ 1556  ls
+ 1557  cd lap/
+ 1558  pwd
+ 1559  git log
+ 1560  ls
+ 1561  touch text
+ 1562  cat > text 
+ 1563  ls
+ 1564  cat text 
+ 1565  clear
+ 1566  vi text 
+ 1567  git status 
+ 1568  git log
+ 1569  git add text 
+ 1570  git status
+ 1571  git commit -m "V1" 
+ 1572  git status
+ 1573  git log
+ 1574  git push
+ 1575  git push text
+ 1576  git push Mohd-suhail-itsoftwareengineer
+ 1577  git remote 
+ 1578  git remote -
+ 1579  git remote -V
+ 1580  git remote -v
+ 1581  git push Mohd-suhail-itsoftwareengineer
+ 1582  git push  git@github.com:Mohd-suhail-itsoftwareengineer/learnrepo.git
+ 1583  git pull 
+ 1584  ls
+ 1585  cat text 
+ 1586  vi text 
+ 1587  git log 
+ 1588  git log text
+ 1589  git show text
+ 1590  git clone text
+ 1591  git remote -v
+ 1592  git pull git@github.com:Mohd-suhail-itsoftwareengineer
+ 1593  git pull text
+ 1594  git pull
+ 1595  ls
+ 1596  cat text 
+ 1597  git branch 
+ 1598  git pull origin shera 
+ 1599  ls
+ 1600  cat text 
+ 1601  git branch -a
+ 1602  man brach
+ 1603  man branch
+ 1604  man git branch
+ 1605  git clon --help
+ 1606  git clone --help
+ 1607  ls
+ 1608  pwd
+ 1609  ls
+ 1610  git log
+ 1611  git merge -a
+ 1612  git branch -a
+ 1613  git merge -a
+ 1614  git branch -a
+ 1615  git branch 
+ 1616  ls
+ 1617  git clone Naak zyada block hai ya sirf pani jaisa discharge aa raha hai?
+ 1618  cd
+ 1619  cd git_repo/
+ 1620  ls
+ 1621  cd lap/
+ 1622  ;s
+ 1623  ls
+ 1624  pwd
+ 1625  ls
+ 1626  cd
+ 1627  ls
+ 1628  cd git_repo/
+ 1629  ls
+ 1630  git branch 
+ 1631  git checkout 
+ 1632  git checkout main 
+ 1633  git branch -a
+ 1634  ls
+ 1635  cd
+ 1636  ls
+ 1637  cd git_repo/
+ 1638  ls
+ 1639  cat old 
+ 1640  ls
+ 1641  cp /home/suhail/git_repo/ /home/suhail/git_repo/vb
+ 1642  cp -r /home/suhail/git_repo/ /home/suhail/git_repo/vb
+ 1643  ls
+ 1644  cp -r /home/suhail/git_repo/old /home/suhail/git_repo/vb
+ 1645  ls
+ 1646  cd vb/
+ 1647  ls
+ 1648  git clean -n 
+ 1649  ls
+ 1650  cat old 
+ 1651  git clean -n old 
+ 1652  git clean -n .
+ 1653  git clean -n *
+ 1654  git clean -n 
+ 1655  ls
+ 1656  git clean -f 
+ 1657  git clean -F
+ 1658  git clean -f
+ 1659  git clean -f old 
+ 1660  ls
+ 1661  sudo git clean -f old 
+ 1662  ls
+ 1663  cd
+ 1664  ls
+ 1665  cd git_repo/
+ 1666  ls
+ 1667  git checkout shera 
+ 1668  ls
+ 1669  git  branch -a
+ 1670  ld
+ 1671  ls
+ 1672  cd lap/
+ 1673  ;s
+ 1674  ls
+ 1675  git log 
+ 1676  ls
+ 1677  git show 0fddfd259121b566b4ea87dfbff3100d23f30739
+ 1678  git show update text
+ 1679  git show Update text
+ 1680  git show 
+ 1681  git show --help
+ 1682  git diff 
+ 1683  git log
+ 1684  ls
+ 1685  git diff 2f7461cb5d2df006a3ea2685db4a5ee91f074e18: text
+ 1686  git show 2f7461cb5d2df006a3ea2685db4a5ee91f074e18
+ 1687  git show 2f7461cb5d2df006a3ea2685db4a5ee91f074e18: text
+ 1688  git tag 
+ 1689  git tag text
+ 1690  git tag 2f7461cb5d2df006a3ea2685db4a5ee91f074e18: text 
+ 1691  git tag 2f7461cb5d2df006a3ea2685db4a5ee91f074e18: V1
+ 1692  git tag V1
+ 1693  git show V1
+ 1694  git tag -a Update text  -m "this bro" 
+ 1695  git show V1
+ 1696  git log
+ 1697  git tag -d V6
+ 1698  git tag -d 
+ 1699  git tag -d text 
+ 1700  ls
+ 1701  git log 
+ 1702  ls
+ 1703  vi git_commands
+ 1704  ls
+ 1705  git status 
+ 1706  git add *
+ 1707  git status
+ 1708  cd ../vb/
+ 1709  ls
+ 1710  cd
+ 1711  ls
+ 1712  cd git_repo/
+ 1713  ls
+ 1714  ls -ld
+ 1715  git brnach -v
+ 1716  git branach -v
+ 1717  git branch -v
+ 1718  ls
+ 1719  cd vb/
+ 1720  ld
+ 1721  ls
+ 1722  git log 
+ 1723  ls
+ 1724  cd .
+ 1725  cd /
+ 1726  ls
+ 1727  cd git_repo/
+ 1728  ls
+ 1729  cd
+ 1730  ls
+ 1731  cat back.sh 
+ 1732  clear
+ 1733  ls
+ 1734  cd git_repo/
+ 1735  ls
+ 1736  cd vb/
+ 1737  ls
+ 1738  clear
+ 1739  ls -ltr
+ 1740  ls
+ 1741  cd
+ 1742  ls
+ 1743  cd git_repo/
+ 1744  ls
+ 1745  cd lap/
+ 1746  ;s
+ 1747  ls
+ 1748  git status 
+ 1749  git commit -m "Git_commands"
+ 1750  git push 
+ 1751  git branch -a
+ 1752  pwd
+ 1753  git log
+ 1754  ls
+ 1755  git show d725c8fafa458712f0cc0ae80c8d0dc15796cd4a
+ 1756  git pull d725c8fafa458712f0cc0ae80c8d0dc15796cd4a
+ 1757  git pull 
+ 1758  git branch --set-upstream-to=origin/<branch> shera 
+ 1759  git branch --set-upstream-to=origin/shera 
+ 1760  git remote -a
+ 1761  git branch -a
+ 1762  git branch shera origin/
+ 1763  git branch shera origin
+ 1764  git branch shera origin/shera 
+ 1765  ls
+ 1766  clear
+ 1767  ls
+ 1768  git pull 
+ 1769  git remote -v
+ 1770  git push
+ 1771  ls
+ 1772  git lof
+ 1773  git log
+ 1774  ls
+ 1775  ls
+ 1776  cd gitq
+ 1777  cd git_repo/
+ 1778  ls
+ 1779  git remote 
+ 1780  git remote -v
+ 1781  git remote -v  --help
+ 1782  git remote -v --help
+ 1783  git remote -v
+ 1784  git remote -a
+ 1785  git remote --help
+ 1786  git remote -v
+ 1787  git init 
+ 1788  git init old
+ 1789  git init --help
+ 1790  ls
+ 1791  ls -a
+ 1792  cd .git/
+ 1793  ls
+ 1794  cd info/
+ 1795  ls
+ 1796  cat exclude 
+ 1797  cd
+ 1798  ls
+ 1799  cd git_repo/
+ 1800  ls
+ 1801  cd .git/
+ 1802  ls
+ 1803  cat HEAD 
+ 1804  cat config 
+ 1805  ls
+ 1806  clear
+ 1807  ls -ltr
+ 1808  ls
+ 1809  git tag -a
+ 1810  git tag -f
+ 1811  git merge
+ 1812  git merge .
+ 1813  git merge *
+ 1814  top
+ 1815  top -p 572
+ 1816  top
+ 1817  top -p 604
+ 1818  htop
+ 1819  aws --version
+ 1820  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ 1821  sudo apt install unzip -y
+ 1822  unzip awscliv2.zip
+ 1823  sudo ./aws/install
+ 1824  aws --version
+ 1825  aws configure list
+ 1826  aws sts get-caller-identity
+ 1827  aws configure
+ 1828  sudo apt  install awscli
+ 1829  which aws
+ 1830  ls
+ 1831  cd aws/
+ 1832  ls
+ 1833  cat README.md 
+ 1834  ls
+ 1835  cd dist/
+ 1836  ls
+ 1837  cd docutils/
+ 1838  ls
+ 1839  cd parsers/
+ 1840  ls
+ 1841  cd rst/
+ 1842  ls
+ 1843  cd include/
+ 1844  ls
+ 1845  cat isogrk4.txt 
+ 1846  which aws
+ 1847  exit
+ 1848  cd /
+ 1849  ls
+ 1850  cd
+ 1851  pwd
+ 1852  clear
+ 1853  ls
+ 1854  cd git_repo/
+ 1855  ls
+ 1856  pwd
+ 1857  ls
+ 1858  celar
+ 1859  ls
+ 1860  clear
+ 1861  git --help 
+ 1862  git --version 
+ 1863  pwd
+ 1864  cd
+ 1865  ls
+ 1866  cat /var/lib/jenkins/workspace/
+ 1867  cd /var/lib/jenkins/workspace/
+ 1868  ls
+ 1869  cd git_work_with_auto_fetch/
+ 1870  ls
+ 1871  cat index.html 
+ 1872  ls
+ 1873  clear
+ 1874  ls -ltr
+ 1875  ls
+ 1876  cp /var/lib/jenkins/workspace/git_work_with_auto_fetch/test.py /home/suhail/git_repo/
+ 1877  cd
+ 1878  cd git_repo/
+ 1879  ls
+ 1880  git pull test.py
+ 1881  git push test.py
+ 1882  git --version 
+ 1883  git remote 
+ 1884  ls
+ 1885  vi test.py 
+ 1886  git status
+ 1887  git add test.py 
+ 1888  git commit -m "changed version-7" 
+ 1889  git status
+ 1890  cat vb/
+ 1891  git pull test.py
+ 1892  git push test.py
+ 1893  git push origin main 
+ 1894  pwd
+ 1895  git status 
+ 1896  git log --oneline 
+ 1897  git branch 
+ 1898  git push origin shera 
+ 1899  ls
+ 1900  python3 test.py 
+ 1901  ls
+ 1902  systemctl status jenkins.service 
+ 1903  ls
+ 1904  cd /var/lib/jenkins/.config/
+ 1905  ls
+ 1906  cd jgit/
+ 1907  ls
+ 1908  cat config 
+ 1909  cd
+ 1910  ls
+ 1911  cd /var/lib/jenkins/secrets/
+ 1912  ls
+ 1913  cleat
+ 1914  ls
+ 1915  clear
+ 1916  ls -ltr
+ 1917  ls
+ 1918  cd demo/
+ 1919  ls
+ 1920  cd
+ 1921  ls
+ 1922  systemctl status jenkins.service 
+ 1923  ls
+ 1924  cd git_repo/
+ 1925  ls
+ 1926  cd
+ 1927  cd /var/lib/jenkins/workspace
+ 1928  ls
+ 1929  cd /var/lib/jenkins/nodes
+ 1930  ls
+ 1931  sudo rm -rf linux-agent
+ 1932  sudo service jenkins restart
+ 1933  ls
+ 1934  systemctl status jenkins.service 
+ 1935  ls
+ 1936  cd ansible_practice/
+ 1937  ls
+ 1938  pwd
+ 1939  ls
+ 1940  cat first_pb.yml 
+ 1941  cat /etc/passwd
+ 1942  sudo cd /home/jenkins
+ 1943  sudo su /home/jenkins
+ 1944  sudo su - /home/jenkins
+ 1945  sudo su- /home/jenkins
+ 1946  cd 
+ 1947  pwd
+ 1948  cat /etc/passwd | grep jenkins
+ 1949  pwd
+ 1950  cd /home/jenkins
+ 1951  sudo cd /home/jenkins
+ 1952  pwd
+ 1953  whoami i
+ 1954  whoami 
+ 1955  su - jenkins 
+ 1956  sudo su - jenkins 
+ 1957  apache2 -v
+ 1958  sudo apt install apache2-bin
+ 1959  sudo apt update
+ 1960  sudo apt install apache2 -y
+ 1961  apache2 -v
+ 1962  sudo systemctl status apache2
+ 1963  curl localhost
+ 1964  sudo service apache2 start
+ 1965  ansible-playbook first_pb.yml
+ 1966  cd ansible_practice/
+ 1967  ansible-playbook first_pb.yml
+ 1968  cd 
+ 1969  ansible-playbook first_pb.yml
+ 1970  sudo ss -tulpn | grep 80
+ 1971  sudo apt install apache2 -y
+ 1972  sudo service apache2 start
+ 1973  sudo service apache2 status
+ 1974  curl localhost
+ 1975  sudo ss -tulpn | grep 80
+ 1976  ansible localhost -m service -a "name=apache2 state=started"
+ 1977  sudo yum install httpd
+ 1978  sudo apt install https
+ 1979  sudo systemctl status httpd.service
+ 1980  ifconfig 
+ 1981  sudo asudo apt update
+ 1982  sudo apt update
+ 1983  sudo apt install apache2 -y
+ 1984  sudo yum install httpd
+ 1985  cd ansible_practice/
+ 1986  s
+ 1987  ls
+ 1988  cd /var/lib/jenkins/workspace/
+ 1989  ls
+ 1990  cd /var/lib/jenkins/workspace/
+ 1991  cd Web_server/
+ 1992  ls
+ 1993  la
+ 1994  clear
+ 1995  ls
+ 1996  cat index
+ 1997  cat index.html 
+ 1998  vi index2.html 
+ 1999  sls
+ 2000  ls
+ 2001  rm index.html 
+ 2002  rm -rf index.html 
+ 2003  sudo rm -rf index.html 
+ 2004  ls
+ 2005  mv index2.html index.html
+ 2006  sudo mv index2.html index.html
+ 2007  ls
+ 2008  git add index.html 
+ 2009  cd
+ 2010  ls
+ 2011  cd git_repo/
+ 2012  ls 
+ 2013  rm -rf index.html 
+ 2014  mv index2.html index.html
+ 2015  ls
+ 2016  git add index.html 
+ 2017  git add index.html "updated_Suhail_weather" 
+ 2018  git commit -m   "updated_Suhail_weather" 
+ 2019  git push origin shera 
+ 2020  git pull 
+ 2021  git push origin shera 
+ 2022  ls
+ 2023  cd
+ 2024  cd git_repo/
+ 2025  lsl
+ 2026  ls
+ 2027  rm -rf index2.html 
+ 2028  ls
+ 2029  cat index.html 
+ 2030  s
+ 2031  ls
+ 2032  git add index2.html 
+ 2033  l
+ 2034  git status
+ 2035  git add index.html 
+ 2036  git status index.html 
+ 2037  ls
+ 2038  vi index.html 
+ 2039  git add index.html 
+ 2040  git status 
+ 2041  git commit -m "This nethure" 
+ 2042  git push origin shera 
+ 2043  cd 
+ 2044  cd ansible_practice/
+ 2045  ls
+ 2046  cat web_server.yml 
+ 2047  vi web_server.yml 
+ 2048  cd
+ 2049  cd /var/www/html/
+ 2050  ls
+ 2051  cd
+ 2052  cd /var/www/html/
+ 2053  ls
+ 2054  rm -rf *
+ 2055  sudo rm -rf *
+ 2056  ls
+ 2057  l
+ 2058  cd
+ 2059  ls
+ 2060  cd git_repo/
+ 2061  ls
+ 2062  git status 
+ 2063  git log 
+ 2064  ls
+ 2065  cat index.html 
+ 2066  ls
+ 2067  git add index.html 
+ 2068  git commit -m "updated website" 
+ 2069  git push origin shera 
+ 2070  git pull origin shera --rebase
+ 2071  git add .
+ 2072  git commit -m "local changes saved"
+ 2073  git add 
+ 2074  git add .
+ 2075  git commit -m "local changes saved
+ 2076  git commit -m "local changes saved"
+ 2077  git push origin shera
+ 2078  git add vb
+ 2079  git add .
+ 2080  git commit -m "save vb changes"
+ 2081  git pull origin shera --rebase
+ 2082  git add index.html
+ 2083  git rebase --continue
+ 2084  git push origin shera
+ 2085  git log 
+ 2086  ls
+ 2087  rm -rf web_server.yml 
+ 2088  git add web_server.yml
+ 2089  git commit -m "fix playbook src file"
+ 2090  ;s
+ 2091  ls
+ 2092  git add web_server.yml 
+ 2093  git commit -m "update server" 
+ 2094  git push origin shead
+ 2095  git push origin shera
+ 2096  git add .
+ 2097  git commit -m "fix playbook src file"
+ 2098  git pull origin shera --rebase
+ 2099  git push origin shera
+ 2100  ls
+ 2101  cd
+ 2102  cd git_repo/
+ 2103  ls
+ 2104  vi jenkins_buliding_code
+ 2105  cat jenkins_buliding_code 
+ 2106  clear
+ 2107  ls
+ 2108  git add jenkins_buliding_code 
+ 2109  git commit -m "Jenkins_code_add" 
+ 2110  git status 
+ 2111  git branch 
+ 2112  git push 
+ 2113  git push origin shera 
+ 2114  l
+ 2115  ls
+ 2116  hitory > important_commands
+ 2117  cat hitory > important_commands
+ 2118  history 
+ 2119  history > backup_file 

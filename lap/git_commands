@@ -1,0 +1,12 @@
+git status > for check status
+git add > for add staging area
+git commit -m "put contents" > for change commit
+git log > for check log details
+git clone > for download and set once a  time from server
+git remote -v > for manage repository and identification for URL 
+git push > from local to server 
+git pull > from server to local 
+git branch brnach_name > for create new branch
+git checkout > for swich new_create branch
+.gitingnore > for save file which not reflectd to anyone
+git push origin brnachname > for move from local to server
