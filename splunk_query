@@ -1,0 +1,571 @@
+2️⃣ 20 Important Splunk Queries
+All logs
+index=main
+Error logs
+index=main ERROR
+Warning logs
+index=main WARN
+Payment logs
+index=main Payment
+Database error
+index=main Database
+Count logs
+index=main | stats count
+Count by log level
+index=main | stats count by log_level
+Top messages
+index=main | stats count by _raw
+Last 15 minutes
+index=main earliest=-15m
+Last 1 hour
+index=main earliest=-1h
+Errors count
+index=main ERROR | stats count
+Payment errors
+index=main Payment ERROR
+Search user login
+index=main login
+User activity
+index=main userId
+Order logs
+index=main orderId
+API issue
+index=main API
+Disk issue
+index=main Disk
+Top keywords
+index=main | top limit=5 _raw
+Timeline logs
+index=main | timechart count
+Error trend
+index=main ERROR | timechart count
+3️⃣ 5 Real Production Incident Examples
+Incident 1 — Application Down
+
+Engineer search करता है:
+
+index=prod_logs ERROR OR Exception
+
+Cause → Database connection failure
+
+Incident 2 — Payment Failure
+index=prod_logs Payment ERROR
+
+Cause → Payment gateway timeout
+
+Incident 3 — Slow API
+index=prod_logs WARN API
+
+Cause → API latency high
+
+Incident 4 — Disk Full
+index=prod_logs Disk
+
+Cause → Disk usage high
+
+Incident 5 — Login Issue
+index=prod_logs login ERROR
+
+Cause → Authentication failure
+
+4️⃣ Splunk Dashboard कैसे बनाते हैं (बहुत important)
+
+Dashboard interview में भी पूछा जाता है.
+
+Step 1
+
+Search page पर जाओ
+
+Search & Reporting
+
+Query run करो:
+
+index=main ERROR
+Step 2
+
+Right side में click करो
+
+Save As
+→ Dashboard Panel
+Step 3
+
+New dashboard create करो
+
+Example:
+
+Dashboard name: Application Monitoring
+
+Panel title:
+
+Error Logs
+Step 4
+
+Add visualization
+
+Select:
+
+Bar chart
+Pie chart
+Line chart
+Step 5
+
+Save
+
+अब dashboard open होगा:
+================================================================
+Dashboards
+→ Application Monitoring
+
+💡 Real DevOps / SRE dashboards में ये panels होते हैं
+
+Error count
+
+API latency
+
+Server CPU
+
+Login failures
+
+Payment failures
+==================================================
+
+1️⃣ Splunk + Linux Troubleshooting Lab
+
+Production में engineers normally Linux + Splunk दोनों use करते हैं.
+
+Step 1 — Linux server में log check
+
+Example:
+
+tail -f application.log
+
+या
+
+cat application.log | grep ERROR
+
+Example log:
+
+2026-03-10 10:02:45 ERROR Database connection failed
+Step 2 — Splunk में same log search
+index=prod_logs ERROR
+
+अगर result आए:
+
+Database connection failed
+
+तो issue database connectivity का हो सकता है.
+
+Step 3 — Time filter
+
+Last 30 minutes logs:
+
+index=prod_logs ERROR earliest=-30m
+Step 4 — Server specific issue
+index=prod_logs host=app-server-1
+
+💡 Production Support Flow
+
+Alert आया
+
+Splunk logs check
+
+Linux logs verify
+
+Root cause identify
+
+2️⃣ 10 Real Splunk Interview Scenarios
+Scenario 1 — Application Down
+
+Search:
+
+index=prod_logs ERROR OR Exception
+
+Root cause → Application crash
+
+Scenario 2 — HTTP 500 Errors
+index=prod_logs status=500
+
+Root cause → Backend service failure
+
+Scenario 3 — Login Failure
+index=prod_logs login failed
+
+Root cause → Authentication issue
+
+Scenario 4 — Slow API
+index=prod_logs response_time>3000
+
+Root cause → High latency
+
+Scenario 5 — Payment Failure
+index=prod_logs Payment ERROR
+
+Root cause → Payment gateway issue
+
+Scenario 6 — Database Connection Issue
+index=prod_logs Database connection failed
+
+Root cause → DB connection pool exhausted
+
+Scenario 7 — Disk Full
+
+Linux command:
+
+df -h
+
+Splunk search:
+
+index=prod_logs disk usage
+Scenario 8 — High CPU
+
+Linux:
+
+top
+
+Splunk:
+
+index=infra_logs cpu
+Scenario 9 — Service Not Running
+
+Linux:
+
+systemctl status tomcat
+
+Splunk:
+
+index=prod_logs service stopped
+Scenario 10 — Network Issue
+
+Linux:
+
+ping server-ip
+
+Splunk:
+
+index=network_logs timeout
+3️⃣ Airline Booking System Troubleshooting (Interview Favorite)
+
+मान लो airline booking system में problem आई.
+
+Issue — Booking Fail
+
+User complaint:
+
+Unable to book ticket
+
+Engineer Splunk में search करेगा:
+
+index=booking_logs ERROR
+
+Possible error:
+
+Payment gateway timeout
+Check Payment Logs
+index=payment_logs timeout
+Check API logs
+index=api_logs booking
+Check server logs
+
+Linux:
+
+tail -f booking-service.log
+
+💡 Final Root Cause Example
+
+Payment gateway timeout
+
+Action:
+
+Restart service
+
+Inform payment team
+
+4️⃣ Interview Answer Example
+
+अगर interviewer पूछे:
+
+How do you troubleshoot production issue using Splunk?
+
+Best answer:
+
+1️⃣ Identify error logs
+
+index=prod_logs ERROR OR Exception
+
+2️⃣ Filter time range
+
+3️⃣ Check specific host
+
+index=prod_logs host=app-server-1
+
+4️⃣ Correlate with Linux logs
+
+tail -f application.log
+
+5️⃣ Identify root cause
+
+5️⃣ Real Tools Used with Splunk
+
+Production environment में Splunk normally इन tools के साथ use होता है:
+
+Linux
+
+AWS CloudWatch
+
+Prometheus
+
+Grafana
+
+ServiceNow
+
+✅ Bro अगर चाहो तो मैं तुम्हें Support / DevOps interview का complete crash course भी दे सकता हूँ:
+
+30 Linux troubleshooting commands
+
+20 Splunk interview questions
+
+15 SQL queries for production support
+
+Complete incident troubleshooting flow
+
+ये सब सीख गए तो 12-15 LPA DevOps / Support roles crack करना easy हो जाता है.
+
+====================================================================================
+
+
+1️⃣ 30 Linux Troubleshooting Commands (Production Support)
+Logs check
+tail -f application.log
+grep ERROR application.log
+less application.log
+File search
+find / -name "*.log"
+find /var/log -mtime -1
+Disk usage
+df -h
+du -sh *
+Process check
+ps -ef | grep java
+top
+htop
+Port check
+netstat -tulnp
+lsof -i :8080
+Service status
+systemctl status tomcat
+systemctl restart tomcat
+Network troubleshooting
+ping google.com
+curl -I http://localhost:8080
+telnet server-ip 8080
+Memory check
+free -m
+CPU usage
+top
+uptime
+File permission
+ls -l
+chmod 755 file.sh
+2️⃣ 20 Splunk Interview Questions
+Q1 What is Splunk?
+
+Answer:
+Splunk is a log analysis and monitoring tool used to collect, search and analyze machine data.
+
+Q2 What is index?
+
+Answer:
+Index is the storage location where Splunk stores logs.
+
+Example:
+
+index=main
+Q3 What is source type?
+
+Answer:
+It defines format of incoming data.
+
+Example:
+
+access_log
+application_log
+Q4 How to search errors?
+index=main ERROR
+Q5 How to find top errors?
+index=main ERROR | stats count by message
+Q6 Last 1 hour logs
+index=main earliest=-1h
+Q7 Count events
+index=main | stats count
+Q8 Time chart
+index=main | timechart count
+Q9 Find top IP
+index=main | stats count by clientip
+Q10 Difference between stats and chart
+
+stats → aggregation
+chart → visualization
+
+Q11 What is dashboard?
+
+Dashboard is visual representation of logs using charts and graphs.
+
+Q12 What is forwarder?
+
+Forwarder collects logs from server and sends to Splunk.
+
+Q13 What is Splunk alert?
+
+Alert triggers when a condition is met.
+
+Example:
+
+ERROR > 100
+Q14 What is SPL?
+
+Splunk Processing Language used to search logs.
+
+Q15 What is host?
+
+Server name generating logs.
+
+Q16 What is source?
+
+File path generating logs.
+
+Q17 How to find HTTP errors?
+index=main status=500
+Q18 What is event?
+
+Single log entry.
+
+Q19 What is field extraction?
+
+Extracting fields like:
+
+userId
+orderId
+Q20 Real use of Splunk
+
+Monitoring applications and troubleshooting production issues.
+
+3️⃣ 15 SQL Queries for Production Support
+Select records
+SELECT * FROM orders;
+Filter data
+SELECT * FROM orders WHERE status='FAILED';
+Count records
+SELECT COUNT(*) FROM orders;
+Group by
+SELECT status, COUNT(*) FROM orders GROUP BY status;
+Last records
+SELECT * FROM orders ORDER BY created_date DESC;
+Join tables
+SELECT o.order_id, p.payment_status
+FROM orders o
+JOIN payments p
+ON o.order_id = p.order_id;
+Find duplicate
+SELECT order_id, COUNT(*)
+FROM orders
+GROUP BY order_id
+HAVING COUNT(*) > 1;
+Update data
+UPDATE orders
+SET status='SUCCESS'
+WHERE order_id=1001;
+Delete record
+DELETE FROM orders WHERE order_id=1001;
+Date filter
+SELECT * FROM orders
+WHERE created_date > SYSDATE-1;
+4️⃣ Complete Incident Troubleshooting Flow
+
+Production support engineer normally ऐसे troubleshoot करता है.
+
+Step 1 Alert receive
+
+Example:
+
+Monitoring alert
+
+User complaint
+
+Step 2 Check logs
+
+Splunk:
+
+index=prod_logs ERROR
+
+Linux:
+
+tail -f application.log
+Step 3 Check server health
+top
+df -h
+free -m
+Step 4 Check database
+SELECT * FROM orders WHERE status='FAILED';
+Step 5 Check service
+systemctl status application
+Step 6 Identify root cause
+
+Example:
+
+DB connection issue
+
+Disk full
+
+API failure
+
+Step 7 Fix issue
+
+Example:
+
+restart service
+
+clear disk space
+
+fix DB connection
+
+Step 8 Update incident
+
+Tool:
+
+ServiceNow
+
+5️⃣ Real Interview Question (Very Common)
+
+Interviewer:
+Application is down, how will you troubleshoot?
+
+Best answer:
+
+Check alert
+
+Check Splunk logs
+
+index=prod_logs ERROR
+
+Check Linux logs
+
+tail -f application.log
+
+Check server health
+
+top
+df -h
+
+Identify root cause and fix.
+
+✅ Bro अगर चाहो तो मैं तुम्हें एक complete mock interview भी करा सकता हूँ जिसमें पूछे जाएंगे:
+
+15 DevOps questions
+
+10 Splunk questions
+
+10 Linux troubleshooting questions
+
+5 real production incidents
+
+ये exact वही level होगा जो companies interview में पूछती हैं.i
